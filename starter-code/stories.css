@@ -1,12 +1,15 @@
 /* Header Style */
-.container{
+body{
+    margin: 0;
+}
+header{
     color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 72px;
-    background-color: red;
+    background-color: #ffffff;
     font-family: 'DM Sans', sans-serif;
     position: fixed;
 }
@@ -67,4 +70,85 @@ button{
 button:hover{
     color: black;
     background-color: #DFDFDF;
+}
+
+
+
+/* Banner Style */
+.banner_container{
+    height: 650px;
+    max-width: 100%;
+    background-image: url('./assets/stories/desktop/moon-of-appalacia.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    font-family: 'DM Sans';
+    margin-top: -16px;
+}
+
+.banner_text{
+    position: relative;
+    font-style: normal;
+    width: 387px;
+    height: 406px;
+    top: 120px;
+    left: 112px;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 2px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    /* or 120% */
+    letter-spacing: 4.16667px;
+    
+}
+
+.date{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #dfdfdf;
+}
+
+span{
+    font-weight: 500;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 17px;
+}
+
+.desc{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #dfdfdf;
+}
+
+.btn{
+    display: flex;
+}
+
+#read{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    /* background-color: red; */
+    margin-top: 3px;
+}
+
+#read:hover{
+    text-decoration-line: underline;
 }
