@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./stories.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Photosnap Website Challenge</title>
@@ -27,8 +28,8 @@
   <!-- Banner -->
   <section class='banner_container'>
       <div class='banner_text'>
-        <h4>LAST MONTH'S FEATURED STORY</h4>
-        <h1>HAZY FULL MOON OF APPALACHIA</h1>
+        <h4 class="banner_head">LAST MONTH'S FEATURED STORY</h4>
+        <h1 class="banner_title">HAZY FULL MOON OF APPALACHIA</h1>
         <p class='date'>March 2nd 2020 <span>by John Appleseed</span></p>
         <p class='desc'>The dissected plateau area, while not actually made
            up of geological mountains, is popularly called "mountains," 
@@ -36,9 +37,27 @@
            the ridges are not high, the terrain is extremely rugged.</p>
         <div class='btn'>
           <a id='read' href='#blank'>READ THE STORY </a>
-          <!-- <ArrowRightAltIcon style={{color: "#dfdfdf"}} /> -->
+          <i class="fa-solid fa-arrow-right-long"></i>
         </div>
       </div>
+  </section>
+
+  <section class="images_container">
+    <div class="img_container">
+      <img id="img_cover" src="./assets/stories/desktop/mountains.jpg" alt="">
+      <div class='img_content'>
+        <div class="img_desc">
+          <p class="img_date">April 16th 2020</p>
+          <h3 class="img_name">The Mountains</h3>
+          <p class="author">by John Appleseed</p>
+        </div>
+        <hr>
+        <div class='img_btn'>
+          <a id='img_read' href='#blank'>READ STORY </a>
+          <i class="fa-solid fa-arrow-right-long "></i>
+        </div>  
+      </div>
+    </div>
   </section>
 
 
