@@ -95,7 +95,7 @@ button:hover{
     left: 112px;
 }
 
-h4{
+.banner_head{
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
@@ -103,7 +103,7 @@ h4{
     letter-spacing: 2px;
 }
 
-h1{
+.banner_title{
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
@@ -152,3 +152,88 @@ span{
 #read:hover{
     text-decoration-line: underline;
 }
+
+
+/* Imgage Styling */
+.img_container{
+    width: 360px;
+    height: 500px;
+    position: relative;
+    margin-top: -33px;
+}
+
+#img_cover{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.img_content{
+    /* background-color: aquamarine; */
+    width: 280px;
+    margin-left: 40px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.img_desc{
+    width: 280px;
+    height: 67px;
+    /* background-color: green; */
+    margin-bottom: 16px;
+}
+
+.img_date{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* background-color: blue; */
+    margin: 0 0 4px 0;
+    color: #dfdfdf
+}
+
+.img_name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* background-color: blue; */
+    margin: 0 0 4px 0;
+    color: #ffffff;
+}
+
+hr{
+    color: #dfdfdf;
+}
+
+.author{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    /* background-color: blue; */
+    margin: 0;
+    color: #dfdfdf;
+}
+
+.img_btn{
+    /* background-color: purple; */
+    margin-top: 20px;
+}
+
+.fa-arrow-right-long{
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+}
+#img_read{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
