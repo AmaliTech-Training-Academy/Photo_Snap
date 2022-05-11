@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+ /* .container1{
+position: absolute;
+width: 1440px;
+height: 650px;
+left: 0px;
+top: 72px;
+
+} */
+
 .left1{
 position: absolute;
 width: 610px;
@@ -99,4 +108,12 @@ left: 0px;
 top: 173px;
 
 background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+}
+
+.image1{
+    position: absolute;
+width: 830px;
+height: 650px;
+left: 610px;
+top: 72px;
 }
