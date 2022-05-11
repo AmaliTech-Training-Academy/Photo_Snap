@@ -99,6 +99,10 @@ letter-spacing: 2px;
 text-decoration: none;
 color: #FFFFFF;
 }
+.anchors:hover{
+    text-decoration: underline;               
+}
+
 .left1Containerbottom > img {
     position: absolute;
 width: 42px;
@@ -352,6 +356,9 @@ height: 500px;
 left: 0px;
 top: 1922px;
 display: flex;
+}
+.container4pic{
+    transition: all .5s ease-out;
 }
 .container4pic:hover {
 transform: translateY(-50px);
