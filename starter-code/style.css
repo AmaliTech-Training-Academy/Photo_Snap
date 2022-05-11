@@ -115,5 +115,100 @@ background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%
 width: 830px;
 height: 650px;
 left: 610px;
-top: 72px;
+/* top: 72px; */
+}
+
+/* styling for second block */
+.container2{
+    /* position: absolute; */
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 722px;
+
+}
+
+.image2{
+    position: absolute;
+width: 830px;
+height: 600px;
+left: 0px;
+top: 722px;
+}
+
+.left2{
+position: absolute;
+width: 610px;
+height: 600px;
+left: 830px;
+top: 722px;
+
+background: #ffffff;
+}
+
+.left2Content{
+position: absolute;
+width: 387px;
+height: 304px;
+left: 112px;
+top: 136px;
+}
+
+.left2Contenttop > p{
+color: #000000;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 1.17px;
+text-transform: uppercase;
+}
+.left2Containermiddle {
+    /* background-color:aqua; */
+    position: absolute;
+    height: 75px;
+    width: 387px;
+    top: calc(50% - 75px/2 + 50.5px);
+
+}
+.left2Containermiddle > p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #000000;
+/* mix-blend-mode: normal; */
+opacity: 0.6;
+}
+
+.left2Containerbottom > a{
+    position: absolute;
+    width: 108px;
+height: 16px;
+left: 0%;
+right: 35.71%;
+top: calc(50% - 16px/2);
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+letter-spacing: 2px;
+
+color: #000000;
+}
+
+.left2Containerbottom{
+    position: absolute;
+left: 0%;
+right: 56.59%;
+top: 94.74%;
+bottom: 0%;
+width: 16px;
+height: 16px;
 }
