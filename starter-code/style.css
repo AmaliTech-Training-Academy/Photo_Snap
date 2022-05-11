@@ -343,3 +343,13 @@ left: 163px;
 top: 2px;
 
 }
+
+/* styling for container4 */
+.container4{
+    position: absolute;
+width: 1440px;
+height: 500px;
+left: 0px;
+top: 1922px;
+display: flex;
+}
