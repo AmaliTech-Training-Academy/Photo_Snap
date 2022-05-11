@@ -353,3 +353,93 @@ left: 0px;
 top: 1922px;
 display: flex;
 }
+
+/* styling for container 5 */
+.container5{
+    position: absolute;
+width: 1110px;
+height: 236px;
+left: 165px;
+top: 2542px;
+/* background-color: blue; */
+bottom: 120px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+/* text-align: center; */
+}
+
+.responsive{
+    /* position: absolute; */
+width: 350px;
+height: 236px;
+left: 165px;
+top: 2542px;
+/* background-color:#BC7198 */
+}
+
+.head5{
+    position: relative;
+height: 25px;
+left: 0%;
+right: 0%;
+top: 120px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+
+text-align: center;
+
+color: #000000;
+}
+
+.pcontainer5{
+    position: relative;
+    /* width: 300px; */
+    margin: 25px;
+height: 75px;
+left: 0%;
+right: 0%;
+top: 115px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+/* or 167% */
+
+text-align: center;
+
+color: #000000;
+
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+
+.homeicons{
+ position: absolute;
+width: 72px;
+height: 72px;
+left: 131px;
+/* top: 120px;    */
+}
+
+.homeicons2{
+ position: absolute;
+width: 72px;
+height: 72px;
+left: 519px;
+/* top: 120px;    */
+}
+
+.homeicons3{
+ position: absolute;
+width: 72px;
+height: 72px;
+left: 900px;
+/* top: 120px;    */
+}
