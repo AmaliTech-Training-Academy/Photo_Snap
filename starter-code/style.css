@@ -357,10 +357,17 @@ display: flex;
 /* styling for container 5 */
 .container5{
     position: absolute;
+    height: 476px;
+    width: 1440px;
+    /* background-color: rebeccapurple; */
+    top: 2422px;
+}
+.container5content{
+    position: absolute;
 width: 1110px;
 height: 236px;
 left: 165px;
-top: 2542px;
+top: 120px;
 /* background-color: blue; */
 bottom: 120px;
 display: grid;
