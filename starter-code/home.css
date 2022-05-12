@@ -364,6 +364,112 @@ display: flex;
 transform: translateY(-50px);
 cursor: pointer;
 }
+.overlay{
+    /* z-index: 5; */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
+    position: absolute;
+width: 360px;
+height: 350px;
+left: 0px;
+top: 150px;
+}
+.overlay1{
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
+    position: relative;
+width: 360px;
+height: 350px;
+left: 0px;
+top: -22.1rem;
+
+}
+.overlay2{
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
+    position: relative;
+width: 360px;
+height: 350px;
+left: 0px;
+top: -22.1rem;
+}
+.overlay3{
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
+    position: relative;
+width: 360px;
+height: 350px;
+left: 0px;
+top: -22.1rem;
+}
+.olayp1{
+position: absolute;
+height: 25px;
+left: 40px;
+right: 0%;
+top: 211px;
+
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+color: #FFFFFF;
+    
+}
+.olayp2{
+    position: absolute;
+height: 17px;
+left: 40px;
+right: 0%;
+top: 240px;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.container4 a{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+text-decoration: none;
+letter-spacing: 2px;
+color: #FFFFFF;
+
+position: absolute;
+height: 16px;
+left: 40px;
+right: 67.5%;
+top: 294px;
+width: 91px;
+}
+
+.arrowimg{
+    position: absolute;
+width: 42px;
+height: 12px;
+left: 238px;
+top: 296px;
+filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(345deg) brightness(104%) contrast(104%);
+}
+
+hr{
+   
+position: absolute;
+width: 280px;
+height: 1px;
+left: 40px;
+top: 273px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.25;
+}
+
 
 /* styling for container 5 */
 .container5{
