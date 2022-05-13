@@ -8,6 +8,62 @@
     box-sizing: border-box;
 }
 
+header {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 72px;
+    background-color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    position: fixed;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 269px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 2px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;   
+}
+
+.nav a:hover{
+    color: #DFDFDF;
+}
+
+.nav-container button {
+    height: 40px;
+    width: 158px;
+    left: 1117px;
+    top: 16px;
+    border-radius: 0px;
+    background-color: #000000;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
 .banner {
     display: flex;
     width: 100%;   
@@ -312,4 +368,95 @@
     left: 0px;
     top: 1738px;
     border-radius: 0px;
+}
+
+@media (max-width: 480px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .conatiner {
+        display: block;
+    } 
+
+    header {
+        position: absolute;
+        width: 375px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+
+        background: #FFFFFF;
+    }
+
+    .banner {
+        position: absolute;
+        width: 375px;
+        display: block;
+        top: 0px;
+    }
+
+    .banner-pic {
+        position: absolute;
+        height: 294px;
+        width: 375px;
+        left: 0px;
+        top: 72px;
+        border-radius: 0px;
+    }
+
+    .banner-pic img {
+        content: url("../images/hero-mobile.jpg");
+        width: 375px;
+
+    }
+
+    .banner-dark {
+        position: absolute;
+        top: 366px;
+        width: 100%;
+        height: 300px;
+        width: 375px;
+        left: 0px;
+        top: 366px;
+        border-radius: 0px;
+
+    }
+
+    .logo {
+        position: absolute;
+        width: 170px;
+        height: 16px;
+        left: 24px;
+        top: 28px;
+    }
+
+    .banner-dark-center {
+        height: 156px;
+        width: 318px;
+        left: 29px;
+        top: 438px;
+        border-radius: 0px;
+    }
+
+    .banner-dark-center h3 {
+        font-family: DM Sans;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 3.3333332538604736px;
+        text-align: left;
+        height: 40px;
+
+    }
+
+    .banner-dark-center p {
+        font-family: 'DM Sans';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
 }
