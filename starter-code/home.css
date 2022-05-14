@@ -122,13 +122,15 @@ top: 173px;
 background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
 }
 
-.image1{
+.imag1{
     position: absolute;
 width: 830px;
 height: 650px;
 left: 610px;
 /* top: 72px; */
+background: url('assets/home/desktop/create-and-share.jpg')
 }
+
 
 /* styling for second block */
 .container2{
@@ -140,12 +142,13 @@ top: 722px;
 
 }
 
-.image2{
+.imag2{
     position: absolute;
 width: 830px;
 height: 600px;
 left: 0px;
 top: 722px;
+background: url('assets/home/desktop/beautiful-stories.jpg');
 }
 
 .left2{
@@ -282,12 +285,13 @@ color: #000000;
 
 }
 
-.image3{
+.imag3{
     position: absolute;
 width: 830px;
 height: 600px;
 left: 610px;
 top: 1322px;
+background: url('assets/home/desktop/designed-for-everyone.jpg')
 }
 
 .left3Containermiddle {
@@ -355,11 +359,20 @@ width: 1440px;
 height: 500px;
 left: 0px;
 top: 1922px;
-display: flex;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.container4pic{
+
+.container4img{
+    width: 360px;
+    height: 500px;
+    background: url('mountains.jpg')
+}
+.container4pic {
     transition: all .5s ease-out;
+    
 }
+
 .container4pic:hover {
 transform: translateY(-50px);
 cursor: pointer;
@@ -489,17 +502,18 @@ top: 120px;
 bottom: 120px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-/* text-align: center; */
+text-align: center;
 }
 
 .responsive{
     /* position: absolute; */
 width: 350px;
-height: 236px;
+/* height: 236px; */
 left: 165px;
 top: 2542px;
 /* background-color:#BC7198 */
 }
+
 
 .head5{
     position: relative;
@@ -566,4 +580,381 @@ width: 72px;
 height: 72px;
 left: 900px;
 /* top: 120px;    */
+}
+
+
+/* for tablet */
+@media (max-width: 768px) {
+    .left1{
+/* position: absolute; */
+width: 495px;
+/* height: 650px;
+left: 0px;
+top: 72px; */
+
+background: #000000;
+}
+.left1Content{
+/* position: absolute;
+width: 387px;
+height: 304px; */
+left: 54px;
+/* top: 173px; */
+}
+.left2{
+/* position: absolute; */
+width: 495px;
+/* height: 600px; */
+left: 273px;
+/* top: 722px; */
+
+}
+.left2Content{
+    left: 54px;
+}
+.left3{
+    width: 495px;
+    /* background-color:#400000 */
+}
+.left3Content{
+    left: 54px;
+}
+.imag1{
+    position: absolute;
+width: 273px;
+height: 650px;
+left: 495px;
+/* top: 72px; */
+background: url('assets/home/tablet/create-and-share.jpg');
+}
+.container2{
+    width: 768px;
+}
+.imag2{
+    position: absolute;
+width: 273px;
+height: 600px;
+left: 0px;
+top: 722px;
+background: url('assets/home/tablet/beautiful-stories.jpg');
+}
+.imag3{
+    position: absolute;
+width: 273px;
+height: 600px;
+left: 495px;
+top: 1322px;
+background: url('assets/home/tablet/designed-for-everyone.jpg')
+}
+
+.container4{
+        /* position: absolute; */
+width: 768px;
+height: 1000px;
+left: 0px;
+/* top: 1922px; */
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+.overlay{
+width: 389px;
+}
+.overlay1{
+    width: 379px;
+    /* top: -1px; */
+}
+.overlay2{
+width: 389px;
+}
+.overlay3{
+    width: 379px;
+}
+
+
+.pic4a{
+    width: 389px;
+     height: 500px;
+}
+.pic4{
+    width: 379px;
+    height: 500px;
+}
+.container4pic{
+    width: 389px;
+    height: 500px;
+}
+
+.container5{
+    position: absolute;
+    height: 900px;
+    width: 768px;
+    /* background-color: rebeccapurple; */
+    top: 2960px;
+}
+.container5content{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 457px;
+    height: 1000px;
+    justify-content: center;
+
+}
+.responsive{
+width: 457px;
+
+
+}
+.homeicons{
+    left: 185px;
+}
+.homeicons2{
+ position: absolute;
+width: 72px;
+height: 72px;
+left: 185px;
+/* top: 1120px;    */
+}
+
+.homeicons3{
+ position: absolute;
+width: 72px;
+height: 72px;
+left: 185px;
+/* top: 120px;    */
+}
+}
+
+/* for mobile */
+@media (max-width: 475px) {
+    .left1{
+/* position: absolute; */
+width: 375px;
+height: 419px;
+left: 0px;
+top: 366px;
+
+background: #000000;
+}
+    .left1Content{
+position: absolute;
+width: 318px;
+height: 275px;
+left: 33px;
+top: 66px;
+}
+.left1Contenttop > p{
+color: #ffffff;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 3.33px;
+text-transform: uppercase;
+}
+.left1Containermiddle {
+    /* background-color:aqua; */
+    /* position: absolute; */
+    height: 75px;
+    width: 318px;
+    top: calc(50% - 100px/2 + 48.5px);
+    
+}
+.left1Containerbottom{
+    top: 259px;
+}
+.gradientblock {
+    position: absolute;
+width: 128px;
+height: 6px;
+left: 33px;
+top: 0px;
+
+background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+}
+.imag1{
+    position: absolute;
+width: 375px;
+height: 294px;
+left: 0px;
+top: -18.3rem;
+background: url('assets/home/mobile/create-and-share.jpg');
+}
+.imag2{
+    position: absolute;
+width: 375px;
+height: 271px;
+left: 0px;
+top: 785px;
+background: url('assets/home/mobile/beautiful-stories.jpg');
+}
+.left2{
+/* position: absolute; */
+width: 375px;
+height: 419px;
+left: 0px;
+top: 1056px;
+
+/* background: #dfffff; */
+}
+.container2{
+    width: 375px;
+}
+  .left2Content{
+position: absolute;
+width: 318px;
+height: 275px;
+left: 33px;
+top: 72px;
+}
+.left2Containermiddle {
+    /* background-color:aqua; */
+    /* position: absolute; */
+    height: 75px;
+    width: 318px;
+    /* top: 208px; */
+    
+}
+.left2Containerbottom{
+    top: 280px;
+}
+.imag3{
+    position: absolute;
+width: 375px;
+height: 271px;
+left: 0px;
+top: 1475px;
+background: url('assets/home/mobile/designed-for-everyone.jpg');
+}
+.left3{
+/* position: absolute; */
+width: 375px;
+height: 419px;
+left: 0px;
+top: 1746px;
+
+/* background: #dfffff; */
+}
+.container3{
+    width: 375px;
+}
+  .left3Content{
+position: absolute;
+width: 318px;
+height: 275px;
+left: 33px;
+top: 72px;
+}
+.left3Containermiddle {
+    /* background-color:aqua; */
+    /* position: absolute; */
+    height: 75px;
+    width: 318px;
+    /* top: 208px; */
+    
+}
+.left3Containerbottom{
+    top: 280px;
+}
+.container4{
+        /* position: absolute; */
+width: 375px;
+height: 1000px;
+left: 0px;
+top: 2165px;
+display: grid;
+grid-template-columns: 1fr;
+
+}
+
+.pic4a{
+     width: 375px;
+    height: 375px;
+}
+.pic4{
+    width: 375px;
+    height: 375px;
+}
+.container4pic{
+    width: 375px;
+    height: 375px;
+}
+.overlay{
+    /* z-index: 5; */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
+    position: relative;
+width: 375px;
+height: 350px;
+left: 0px;
+top: -22.1rem;
+}
+.overlay1{
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
+    position: relative;
+width: 375px;
+height: 350px;
+left: 0px;
+top: -22.1rem;
+
+}
+.overlay2{
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
+    position: relative;
+width: 375px;
+height: 350px;
+left: 0px;
+top: -22.1rem;
+}
+.overlay3{
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
+    position: relative;
+width: 375px;
+height: 350px;
+left: 0px;
+top: -22.1rem;
+}
+.container5{
+    position: absolute;
+    height: 900px;
+    width: 375px;
+    /* background-color: rebeccapurple; */
+    top: 3660px;
+}
+.container5content{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 310px;
+    height: 1000px;
+    justify-content: start;
+    left: 33px;
+
+}
+.responsive{
+width: 310px;
+
+
+}
+.homeicons{
+    left: 108px;
+}
+.homeicons2{
+ position: absolute;
+width: 72px;
+height: 72px;
+left: 108px;
+/* top: 1120px;    */
+}
+
+.homeicons3{
+ position: absolute;
+width: 72px;
+height: 72px;
+left: 108px;
+/* top: 120px;    */
+}
+
+
 }
