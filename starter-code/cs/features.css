@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Header */
 header {
     color: black;
     display: flex;
@@ -27,6 +27,7 @@ header {
     cursor: pointer;
 }
 
+/* Navigation */
 nav {
     display: flex;
     justify-content: space-between;
@@ -35,7 +36,6 @@ nav {
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
-    /* identical to box height */
     letter-spacing: 2px;
 }
 
@@ -66,17 +66,13 @@ nav {
     color: #FFFFFF;
 }
 
+/* Banner */
 .banner {
     display: flex;
     width: 100%;   
 }
 
-/* .banner>div:first-child{
-    margin: 40px;
-} */
-
 .banner-pic {
-    /* display: inline-flex; */
     height: 490px;
     width: 830px;
     border-radius: 0px;    
@@ -96,28 +92,16 @@ nav {
 .banner-dark-center {
     height: 144px;
     width: 387px;
-    /* margin-left: -10px; */
 }
-/* .banner-dark-center {
-    height: 144px;
-    width: 387px;
-    border: 2px solid red;
-    border-radius: 0px;
-} */
 
 .banner-dark-center h3 {
-    /* top: calc(50% - 48px/2 - 48px); */
-    
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-    /* identical to box height, or 120% */
-    
     letter-spacing: 4.16667px;
     text-transform: uppercase;
-    
     color: #FFFFFF;
 }
 
@@ -127,31 +111,23 @@ nav {
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
-    /* or 167% */
-
     color: #FFFFFF;
-
     mix-blend-mode: normal;
     opacity: 0.6;
 }
 
+/* Features */
 .feature-container {
-    /* width: 1110px;
-    height: 576px;
-    margin: auto;
-    margin-top: auto; */
     position: absolute;
     width: 1110px;
     height: 576px;
     left: 165px;
     right: 165px;
-    /* top: 724px; */
     top: 680px;
 }
 
 .feature-first-row {
     display: flex;
-    /* margin-top: 0px; */
 }
 
 .feature-second-row {
@@ -276,7 +252,6 @@ nav {
 }
 
 .feature-title {
-    /* position: absolute; */
     height: 25px;
     left: 0%;
     right: 0%;
@@ -287,10 +262,7 @@ nav {
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
-    /* identical to box height, or 139% */
-
     text-align: center;
-
     color: #000000;
 }
 
@@ -298,24 +270,19 @@ nav {
     height: 75px;
     left: 0%;
     right: 0%;
-    /* top: calc(50% - 75px/2 + 20.5px); */
     top: 41px;
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
-    /* or 167% */
-
     text-align: center;
-
     color: #000000;
-
     mix-blend-mode: normal;
     opacity: 0.6;
 }
 
+/* Pre-Footer */
 .pre-footer {
     position: absolute;
     height: 530px;
@@ -340,20 +307,13 @@ nav {
     height: 144px;
     width: 400px;
     padding-left: 0px;
-    /* left: 0%;
-    right: 63.96%;
-    top: calc(50% - 144px/2); */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-    /* or 120% */
-
     letter-spacing: 4.16667px;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
@@ -385,7 +345,6 @@ nav {
     height: 12px;
     width: 42px;
     margin-left: 18px;
-    /* align: center; */
 }
 
 /* Footer */
@@ -403,11 +362,9 @@ footer{
 
 .footer_content{
     position: relative;
-    /* width: 1110px; */
     width: 80%;
     height: 122px;
     color: white;
-    /* background-color: blue; */
 }
 
 .footer_logo{
@@ -418,7 +375,6 @@ footer{
     height: 16px;
     left: 30px;
     top: 0px;
-    /* background-color: green; */
 }
 
 .footer_logo .fa-caret-up{
@@ -434,7 +390,6 @@ footer{
 }
 
 .social_icons{
-    /* background-color: yellow; */
     display: flex;
     position: absolute;
     justify-content: space-between;
@@ -518,18 +473,12 @@ footer{
     top: 0%;
 }
 
-/* .invite svg{
-    position: absolute;
-    right: 0px;
-} */
-
 .invite img {
     position: absolute;
     left: 126px;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(345deg) brightness(104%) contrast(104%);
     height: 12px;
     width: 42px;
-    /* right: 10px; */
 }
 
 
@@ -538,7 +487,6 @@ footer{
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
-/* identical to box height */
     letter-spacing: 1px;
     margin-top: 0;
     text-transform: uppercase;
@@ -552,22 +500,18 @@ footer{
     position: absolute;
     height: 20px;
     right: 125px;
-    /* bottom: -17px; */
     bottom: 0px;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    /* identical to box height */
     text-align: right;
     color: #FFFFFF;
-
     mix-blend-mode: normal;
     opacity: 0.5;
-    /* background-color: tomato; */
 }
 
 
-
+/* Tablet */
 @media (max-width: 768px) {
     * {
         padding: 0;
@@ -583,6 +527,8 @@ footer{
         width: 768px;
     }
 
+
+    /* Header */
     .logo img {
         position: absolute;
         width: 170px;
@@ -610,20 +556,18 @@ footer{
         left: 250px;
         top: 28px;
         border-radius: 0px;
-        /* justify-content: center; */
     }
 
     .nav-container button {
         position: absolute;
         height: 40px;
         width: 158px;
-        /* right: 40px; */
         left: 570px;
         top: 16px;
         border-radius: 0px;
-        /* background-color: #D3205A; */
     }
 
+    /* Banner */
     .banner {
         position: absolute;
         height: 490px;
@@ -657,17 +601,13 @@ footer{
         left: 0%;
         right: 0%;
         top: calc(50% - 48px/2 - 48px);
-
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
         line-height: 48px;
-        /* identical to box height, or 120% */
-
         letter-spacing: 4.16667px;
         text-transform: uppercase;
-
         color: #FFFFFF;
     }
 
@@ -677,17 +617,12 @@ footer{
         left: 0%;
         right: 0%;
         top: calc(50% - 75px/2 + 34.5px);
-
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
         line-height: 25px;
-        /* or 167% */
-
-
         color: #FFFFFF;
-
         mix-blend-mode: normal;
         opacity: 0.6;
     }
@@ -704,13 +639,13 @@ footer{
         content: url("../images/hero-tablet.jpg");
     }
 
+
+    /* Features */
     .feature-container {
         position: absolute;
         width: 690px;
         height: 852px;
         left: 38px;
-        /* top: 724px; */
-        /* top: 680px; */
     }
     .feature-item-1 {
         position: absolute;
@@ -726,7 +661,6 @@ footer{
         height: 236px;
         width: 340px;
         left: 340px;
-        /* left: 38px; */
         top: 0px;
         border-radius: 0px;
     }
@@ -736,7 +670,6 @@ footer{
         height: 236px;
         width: 340px;
         left: 0px;
-        /* left: 38px; */
         top: 236px;
         border-radius: 0px;
     }
@@ -746,7 +679,6 @@ footer{
         height: 236px;
         width: 340px;
         left: 340px;
-        /* left: 38px; */
         top: 236px;
         border-radius: 0px;
     }
@@ -756,7 +688,6 @@ footer{
         height: 236px;
         width: 340px;
         left: 0px;
-        /* left: 38px; */
         top: 472px;
         border-radius: 0px;
     }
@@ -770,17 +701,15 @@ footer{
         border-radius: 0px;
     } 
 
+    /* Pre-Footer */
     .pre-footer {
         height: 280px;
-        /* width: 768px; */
         width: 100%;
         left: 0px;
-        /* top: 1647px; */
         border-radius: 0px;
     }
 
     .pre-footer-content {
-        /* position: absolute; */
         width: 689px;
         margin-left: 40px;
     }
@@ -796,27 +725,23 @@ footer{
         left: 5.08%;
         right: 42.84%;
         top: calc(50% - 144px/2);
-
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
         line-height: 48px;
-        /* or 120% */
-
         letter-spacing: 4.16667px;
         text-transform: uppercase;
-
         color: #FFFFFF;
     }
 
+    /* Footer */
     footer {
         position: absolute;
         width: 768px;
         height: 284px;
         left: 0px;
         top: 1735px;
-        /* top: 1927px; */
     }
 
     .footer_content {
@@ -849,14 +774,12 @@ footer{
         position: absolute;
         top: 48px;
         left: 0px;
-        /* letter-spacing: 2px; */
-        /* justify-content: space-between; */
     }
     
 }
 
 
-
+/* Tablet */
 @media (max-width: 375px) {
     * {
         padding: 0;
@@ -868,6 +791,7 @@ footer{
         width: 100%;
     }
 
+    /* Header - Nav bar */
     .logo img {
         position: absolute;
         width: 170px;
@@ -886,14 +810,6 @@ footer{
         display: none;
     }
 
-    /* .nav {
-        width: 375px;
-        display: flex; 
-        justify-content: center;
-        position: absolute;
-        left: 0px;
-    } */
-
     .nav {
         position: absolute;
         top: 70px;
@@ -907,12 +823,10 @@ footer{
     .nav a {
         display: flex;
         justify-content: center;
-        /* margin-top: ; */
     }
 
     nav > a:first-child {
         margin-top: 32px;
-        /* background-color: #5A77FF; */
     }
 
     nav > a:nth-child(2) {
@@ -934,12 +848,6 @@ footer{
         display: none;
     }
 
-    /* .logo::after {
-        content: url("../images/menu.svg");
-        position: absolute;
-        left: 310px;
-    } */
-
     .container {
         display: block;
     } 
@@ -950,10 +858,10 @@ footer{
         height: 72px;
         left: 0px;
         top: 0px;
-
         background: #FFFFFF;
     }
 
+    /* Banner */
     .banner {
         position: absolute;
         width: 375px;
@@ -1000,7 +908,6 @@ footer{
         height: 156px;
         width: 318px;
         left: 29px;
-        /* top: 438px; */
         top: 72px;
         border-radius: 0px;
     }
@@ -1025,6 +932,7 @@ footer{
         text-align: left;
     }
 
+    /* Feature */
     .feature-container {
         position: absolute;
         width: 310px;
@@ -1036,7 +944,6 @@ footer{
 
     .feature-first-row {
         position: absolute;
-        /* left: 0px; */
         display: block;
 
     }
@@ -1045,7 +952,6 @@ footer{
         position: absolute;
         display: block;
         margin-top: 50px;
-        /* margin-bottom: 100px; */
     }
 
     .feature-item-1 {
@@ -1077,12 +983,10 @@ footer{
     }
     
     .feature-item-4 {
-        /* position: relative; */
         display: block;
         height: 236px;
         width: 310px;
         left: 33px;
-        /* top: 1587px; */
         top: 1547px;
         border-radius: 0px;
         margin-bottom: 55px
@@ -1171,25 +1075,20 @@ footer{
     }
 
     .feature-description {
-        /* position: absolute; */
         height: 75px;
         top: calc(50% - 75px/2 + 20.5px);
-
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
         line-height: 25px;
-        /* or 167% */
-
         text-align: center;
-
         color: #000000;
-
         mix-blend-mode: normal;
         opacity: 0.6;
     }    
 
+    /* Pre-footer */
     .pre-footer {
         margin-top: 40px;
         height: 288px;
@@ -1201,7 +1100,6 @@ footer{
     }
 
     .pre-footer-content {
-        /* display: block; */
         height: 160px;
         width: 310px;
         left: 33px;
@@ -1216,20 +1114,15 @@ footer{
         left: 0%;
         right: 0%;
         top: calc(50% - 120px/2 - 20px);
-
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
         line-height: 40px;
-        /* or 125% */
-
         letter-spacing: 3.33333px;
         text-transform: uppercase;
-
         color: #FFFFFF;
         margin-left: 33px;
-        /* margin-right: 32px; */
     }
 
     .pre-footer-right-text {
@@ -1241,6 +1134,7 @@ footer{
         margin-left: 33px;
     }
 
+    /* Footer */
     footer {
         display: flex;
         flex-direction: column;
@@ -1274,8 +1168,7 @@ footer{
         width: 310px;
         flex-direction: column;
         justify-content: space-between;
-        top: 117px;
-        
+        top: 117px;   
     }    
 
     .footer_nav a {
@@ -1285,24 +1178,19 @@ footer{
     }
 
 
-.copyright {    
+    .copyright {    
         position: absolute;
         height: 20px;
         left: 8.71%;
         right: 9.03%;
         top: calc(50% - 20px/2 + 203.5px);
-
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
         line-height: 20px;
-        /* identical to box height */
-
         text-align: center;
-
         color: #FFFFFF;
-
         mix-blend-mode: normal;
         opacity: 0.5;
     }
@@ -1313,6 +1201,5 @@ footer{
         left: 69px;
         top: 357px;
         border-radius: 0px;
-
     }
 }
