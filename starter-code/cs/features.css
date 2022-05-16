@@ -741,7 +741,6 @@ footer{
         height: 236px;
         width: 340px;
         left: 0px;
-        /* left: 38px; */
         top: 472px;
         border-radius: 0px;
     }
@@ -757,15 +756,12 @@ footer{
 
     .pre-footer {
         height: 280px;
-        /* width: 768px; */
         width: 100%;
         left: 0px;
-        /* top: 1647px; */
         border-radius: 0px;
     }
 
     .pre-footer-content {
-        /* position: absolute; */
         width: 689px;
         margin-left: 40px;
     }
@@ -787,7 +783,6 @@ footer{
         font-weight: 700;
         font-size: 40px;
         line-height: 48px;
-        /* or 120% */
 
         letter-spacing: 4.16667px;
         text-transform: uppercase;
@@ -801,7 +796,6 @@ footer{
         height: 284px;
         left: 0px;
         top: 1735px;
-        /* top: 1927px; */
     }
 
     .footer_content {
@@ -834,8 +828,6 @@ footer{
         position: absolute;
         top: 48px;
         left: 0px;
-        /* letter-spacing: 2px; */
-        /* justify-content: space-between; */
     }
     
 }
@@ -929,7 +921,6 @@ footer{
         height: 156px;
         width: 318px;
         left: 29px;
-        /* top: 438px; */
         top: 72px;
         border-radius: 0px;
     }
@@ -965,7 +956,6 @@ footer{
 
     .feature-first-row {
         position: absolute;
-        /* left: 0px; */
         display: block;
 
     }
@@ -974,7 +964,6 @@ footer{
         position: absolute;
         display: block;
         margin-top: 50px;
-        /* margin-bottom: 100px; */
     }
 
     .feature-item-1 {
@@ -1006,12 +995,10 @@ footer{
     }
     
     .feature-item-4 {
-        /* position: relative; */
         display: block;
         height: 236px;
         width: 310px;
         left: 33px;
-        /* top: 1587px; */
         top: 1547px;
         border-radius: 0px;
         margin-bottom: 55px
@@ -1100,7 +1087,6 @@ footer{
     }
 
     .feature-description {
-        /* position: absolute; */
         height: 75px;
         top: calc(50% - 75px/2 + 20.5px);
 
@@ -1109,7 +1095,6 @@ footer{
         font-weight: 400;
         font-size: 15px;
         line-height: 25px;
-        /* or 167% */
 
         text-align: center;
 
@@ -1130,7 +1115,6 @@ footer{
     }
 
     .pre-footer-content {
-        /* display: block; */
         height: 160px;
         width: 310px;
         left: 33px;
@@ -1151,14 +1135,12 @@ footer{
         font-weight: 700;
         font-size: 32px;
         line-height: 40px;
-        /* or 125% */
 
         letter-spacing: 3.33333px;
         text-transform: uppercase;
 
         color: #FFFFFF;
         margin-left: 33px;
-        /* margin-right: 32px; */
     }
 
     .pre-footer-right-text {
@@ -1226,7 +1208,6 @@ footer{
         font-weight: 400;
         font-size: 15px;
         line-height: 20px;
-        /* identical to box height */
 
         text-align: center;
 
