@@ -196,10 +196,12 @@ span{
     width: 360px;
     height: 500px;
     position: relative;
+    transition: all .5s ease-out;
+
 }
 
 .img_container:hover{
-    top: -24px;
+    transform: translateY(-50px);
 }
 
 #img_cover{
