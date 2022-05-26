@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+/* html{
+    overflow-x: hidden;
+} */
+
+.wrap{
+    width: 100%;
+    background-color:#000000;
+    height: 100%;
+}
+
 header{
     color: black;
     display: flex;
@@ -85,16 +95,17 @@ header .menu, .close{
 
  /* .container1{
 position: absolute;
-width: 1440px;
+width: 100%;
 height: 650px;
 left: 0px;
 top: 72px;
-
+background:#27718A
 } */
 
 .left1{
 position: absolute;
-width: 610px;
+/* width: 610px; */
+width: 45.35%;
 height: 650px;
 left: 0px;
 top: 72px;
@@ -103,11 +114,12 @@ background: #000000;
 }
 
 .left1Content{
-position: absolute;
+/* position: absolute; */
 width: 387px;
 height: 304px;
-left: 112px;
-top: 173px;
+/* left: 112px;
+top: 173px; */
+margin: 0 auto;
 }
 
 .left1Contenttop > p{
@@ -151,9 +163,9 @@ opacity: 0.6;
 
 .left1Containerbottom{
     position: absolute;
-left: 0%;
+left: 22%;
 right: 56.59%;
-top: 94.74%;
+top: 70%;
 bottom: 0%;
 width: 168px;
 height: 16px;
@@ -205,9 +217,10 @@ background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%
     position: absolute;
 width: 830px;
 height: 650px;
-left: 610px;
-/* top: 72px; */
-background: url('assets/home/desktop/create-and-share.jpg')
+left: 100%;
+top: 0px;
+background: url('assets/home/desktop/create-and-share.jpg');
+background-repeat: no-repeat;
 }
 
 
@@ -244,7 +257,7 @@ background: #ffffff;
 position: absolute;
 width: 387px;
 height: 304px;
-left: 112px;
+left: 22%;
 top: 136px;
 }
 
@@ -325,7 +338,7 @@ top: 1322px;
 
 .left3{
     position: absolute;
-width: 610px;
+width: 45.5%;
 height: 600px;
 left: 0px;
 top: 1322px;
@@ -336,7 +349,7 @@ top: 1322px;
 position: absolute;
 width: 387px;
 height: 281px;
-left: 112px;
+left: 22%;
 top: 160px;
 }
 
@@ -368,7 +381,7 @@ color: #000000;
     position: absolute;
 width: 830px;
 height: 600px;
-left: 610px;
+left: 45.3%;
 top: 1322px;
 background: url('assets/home/desktop/designed-for-everyone.jpg')
 }
@@ -434,7 +447,7 @@ top: 2px;
 /* styling for container4 */
 .container4{
     position: absolute;
-width: 1440px;
+width: 100%;
 height: 500px;
 left: 0px;
 top: 1922px;
@@ -442,42 +455,70 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.container4img{
+/* .container4img{
     width: 360px;
     height: 500px;
     background: url('mountains.jpg')
-}
+} */
 .container4pic {
-    transition: all .5s ease-out;
-    
+    transition: all .5s ease-out; 
+}
+
+.pic4 {
+    width: 100%;
+    height: 500px;
+}
+
+.pic4a {
+    width: 100%;
+    height: 500px;
 }
 
 .container4pic:hover {
 transform: translateY(-50px);
 cursor: pointer;
 }
+
+
+/* .overlay1:hover {
+transform: translateY(-50px);
+cursor: pointer;
+} */
 .overlay{
     /* z-index: 5; */
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
-    position: absolute;
-width: 360px;
+    position: relative;
+width: 100%;
 height: 350px;
 left: 0px;
-top: 150px;
+top: -354px;
 }
-.overlay1{
+/* .overlay1{
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
-    position: relative;
-width: 360px;
+    position: relative; */
+/* width: 360px; */
+/* width: 100%;
 height: 350px;
 left: 0px;
 top: -22.1rem;
+} */
 
+.overlay1 {
+    /* z-index: 5; */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
+    position: relative;
+width: 100%;
+height: 350px;
+left: 0px;
+top: -354px;
 }
+
+
+
 .overlay2{
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
     position: relative;
-width: 360px;
+width: 100%;
 height: 350px;
 left: 0px;
 top: -22.1rem;
@@ -485,7 +526,7 @@ top: -22.1rem;
 .overlay3{
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
     position: relative;
-width: 360px;
+width: 100%;
 height: 350px;
 left: 0px;
 top: -22.1rem;
@@ -552,7 +593,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(345deg) brightness(104%
 hr{
    
 position: absolute;
-width: 280px;
+width: 295px;
 height: 1px;
 left: 40px;
 top: 273px;
@@ -567,21 +608,23 @@ opacity: 0.25;
 .container5{
     position: absolute;
     height: 476px;
-    width: 1440px;
+    width: 100%;
     /* background-color: rebeccapurple; */
     top: 2422px;
+    text-align: center;
 }
 .container5content{
     position: absolute;
 width: 1110px;
 height: 236px;
-left: 165px;
+left: 13%;
 top: 120px;
 /* background-color: blue; */
 bottom: 120px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 text-align: center;
+
 }
 
 .responsive{
@@ -844,6 +887,9 @@ height: 304px; */
 left: 54px;
 /* top: 173px; */
 }
+.left1Containerbottom{
+    left: 10%;
+}
 .left2{
 /* position: absolute; */
 width: 495px;
@@ -867,7 +913,7 @@ left: 273px;
 width: 273px;
 height: 650px;
 left: 495px;
-/* top: 72px; */
+top: 0px;
 background: url('assets/home/tablet/create-and-share.jpg');
 }
 .container2{
@@ -941,7 +987,8 @@ width: 389px;
     grid-template-columns: 1fr;
     width: 457px;
     height: 1000px;
-    justify-content: center;
+    justify-items: center;
+    left: 20%;
 
 }
 .responsive{
@@ -992,7 +1039,7 @@ left: 185px;
 
 /* for mobile */
 
-@media (max-width: 475px) {
+@media (max-width: 430px) {
 
         header{
         display: flex;
@@ -1047,7 +1094,7 @@ left: 185px;
 
     .left1{
 /* position: absolute; */
-width: 375px;
+width: 430px;
 height: 419px;
 left: 0px;
 top: 366px;
@@ -1058,8 +1105,9 @@ background: #000000;
 position: absolute;
 width: 318px;
 height: 275px;
-left: 33px;
+left: 9.8%;
 top: 66px;
+/* margin: 0 auto; */
 }
 .left1Contenttop > p{
 color: #ffffff;
@@ -1081,6 +1129,7 @@ text-transform: uppercase;
 }
 .left1Containerbottom{
     top: 259px;
+    left: 0%;
 }
 .gradientblock {
     position: absolute;
@@ -1093,25 +1142,29 @@ background: linear-gradient(26.57deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%
 }
 .imag1{
     position: absolute;
-width: 375px;
+width: 430px;
 height: 294px;
 left: 0px;
 top: -18.3rem;
 background: url('assets/home/mobile/create-and-share.jpg');
+background-size: cover;
+display: grid;
+grid-template-columns: 1fr;
 }
 .imag2{
     position: absolute;
-width: 375px;
+width: 430px;
 height: 271px;
 left: 0px;
 top: 785px;
 background: url('assets/home/mobile/beautiful-stories.jpg');
+background-size: cover;
 }
 .left2{
 /* position: absolute; */
 width: 375px;
 height: 419px;
-left: 0px;
+left: 3%;
 top: 1056px;
 
 /* background: #dfffff; */
@@ -1139,17 +1192,18 @@ top: 72px;
 }
 .imag3{
     position: absolute;
-width: 375px;
+width: 430px;
 height: 271px;
 left: 0px;
 top: 1475px;
 background: url('assets/home/mobile/designed-for-everyone.jpg');
+background-size: cover;
 }
 .left3{
 /* position: absolute; */
 width: 375px;
 height: 419px;
-left: 0px;
+left: 3%;
 top: 1746px;
 
 /* background: #dfffff; */
@@ -1177,7 +1231,7 @@ top: 72px;
 }
 .container4{
         /* position: absolute; */
-width: 375px;
+width: 430px;
 height: 1000px;
 left: 0px;
 top: 2165px;
@@ -1186,23 +1240,32 @@ grid-template-columns: 1fr;
 
 }
 
-.pic4a{
+/* .pic4a{
      width: 375px;
     height: 375px;
 }
 .pic4{
     width: 375px;
     height: 375px;
+} */
+.pic4 {
+    width: 100%;
+    height: 375px;
+}
+
+.pic4a {
+    width: 100%;
+    height: 375px;
 }
 .container4pic{
-    width: 375px;
+    width: 100%;
     height: 375px;
 }
 .overlay{
     /* z-index: 5; */
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
     position: relative;
-width: 375px;
+width: 100%;
 height: 350px;
 left: 0px;
 top: -22.1rem;
@@ -1210,7 +1273,7 @@ top: -22.1rem;
 .overlay1{
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
     position: relative;
-width: 375px;
+width: 100%;
 height: 350px;
 left: 0px;
 top: -22.1rem;
@@ -1219,7 +1282,7 @@ top: -22.1rem;
 .overlay2{
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
     position: relative;
-width: 375px;
+width: 100%;
 height: 350px;
 left: 0px;
 top: -22.1rem;
@@ -1227,7 +1290,7 @@ top: -22.1rem;
 .overlay3{
       background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.27%, rgba(0, 0, 0, 0.661222) 100%) ;
     position: relative;
-width: 375px;
+width: 100%;
 height: 350px;
 left: 0px;
 top: -22.1rem;
@@ -1243,10 +1306,10 @@ top: -22.1rem;
     position: relative;
     display: grid;
     grid-template-columns: 1fr;
-    width: 310px;
+    width: 40px;
     height: 1000px;
     justify-content: start;
-    left: 33px;
+    left: 15%;
 
 }
 .responsive{
@@ -1275,7 +1338,7 @@ left: 108px;
 
 /* FOOTER */
     footer{
-        width: 100%;
+        width: 430px;
         height: 539px;
         z-index: 2000;
         display: flex;
